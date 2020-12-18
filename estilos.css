@@ -176,6 +176,7 @@ header nav a:hover{
 	justify-content: center;
 	align-content: center;
 	padding-bottom: 10rem;
+	width: 100vw;
 }
 
 #img_design {
@@ -402,7 +403,7 @@ form label {
 	}
 	.section2 {
 		height: 100%;
-		width: 100%;
+		width: 100vw;
 
 	}
 
