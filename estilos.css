@@ -20,8 +20,7 @@
 
 } 
 
-url
-{cursor:url(), auto;}
+url{cursor:url(img/loader.gif), auto;}
 
 body {
 
@@ -59,6 +58,7 @@ header {
 
 header nav {
 
+	background-color: rgb(0, 0, 0, 0.5);
 	width: 100%;
 	height: 3.5rem;
 	display: flex;
@@ -78,12 +78,13 @@ header nav a {
 	padding: 2;
 	text-align: center;
 	flex-grow: 1;
+	flex-shrink: 1;
 	padding: 1rem;
 }
 
 header nav a:hover{
 	color: black;
-	background-color: #f8b500;
+	background-color: white;
 	text-decoration: none;
 }
 
@@ -176,7 +177,11 @@ header nav a:hover{
 	padding-bottom: 10rem;
 }
 
+#img_design {
 
+	height: 500px;
+
+}
 .cards2 {
 
 	margin:auto;
@@ -209,6 +214,7 @@ header nav a:hover{
 	height: 75vh;
 	background-color: #ffea00;
 	text-align: center;
+	width: 100%;
 }
 
 .section3 h3{
@@ -229,6 +235,7 @@ footer {
 	background-color: black;
 	display: flex;
 	justify-content: space-between;
+	font-size: 1rem;
 }
 
 form {
@@ -269,7 +276,6 @@ form label {
 	padding: 15px;
 	margin-bottom: 15px;
 	border-radius: 5px;
-	box-shadow: 1px 1px 1px 1px grey;
 	color: grey;
 	margin-top: 0.5rem;
 
@@ -360,7 +366,7 @@ form label {
 
 /*------------ RESPONSIVE ------------------ */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1100px) {
 
 	.wave {
 	display: none;
@@ -368,15 +374,92 @@ form label {
 
 	.section1 {
 	font-size: 0.8rem;
+	height: 100%;
 	}
 
 	div{
 		font-size: 0.8rem;
 	}
 	
-	#img_recursos {
+	.texto_section2{
+
+	}
+
+
+	#img_recursos{
 
 		height: 200px;
+		margin:auto;
+
+	}
+
+	#img_design{
+
+		height: 200px;
+		margin: auto;
+
+	}
+	.section2 {
+		height: 100%;
+		width: 100%;
+
+	}
+
+	.section3{
+		height: 100%;
+		width: 100%;
+
+	}
+
+	.section4 {
+		height: 100%;
+		width: 100%;
+	}
+
+
+	.card1 {
+
+		width: 100%;
+	}
+
+
+	.header {
+
+		width: 100%;
+	}
+
+	.header nav {
+
+		padding: 0.5rem;
+		margin: 0.5rem;
+		font-size: 0.6rem;
+	}
+
+
+	.footer {
+
+	font-size: 0.5rem;
+	height: 100%;
+
 	}
 }
 
+@media screen and (max-width: 600px) {
+
+
+header nav {
+
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+	font-size: 0.5rem;
+
+}
+
+
+header nav .logo {
+
+	height: 35px;
+	
+}
+
+}

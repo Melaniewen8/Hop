@@ -36,7 +36,7 @@
 	</nav>
 
 	<div class="whatsapp">
-	<a href="">
+	<a href="https://api.whatsapp.com/send?phone=34692719255&text=Hola%20Hop!%20">
 	<img src="img/whatsapp.png" height="40px">
 	</a>
 	</div>
@@ -66,7 +66,7 @@
 
 
 <!--  Pantalla 2 -->
-	<div class=" section1" >
+	<div class=" section1" class="">
 
 	<h2>¿Qué brindamos?</h2>
 	<p>Proponemos una plataforma 100% personalizada a su necesidad. <br>Permitiendo que los usuarios participantes del evento puedan interactuar.</p>
@@ -105,7 +105,7 @@ Nuestros servicios: recitales, eventos corporativos, eventos de fundaciones, lan
 
 <div class="cards3 col-xl-12 col-sm-12 col-xs-12" id="card_centrada">
 	<div class="texto_section2">
-		<img src="img/design.png" height="500px">
+		<img src="img/design.png" id="img_design">
 		<h2>Diseño </h2> <p>
 		Logotipo para el evento.
 		Piezas digitales para difusión.
@@ -120,7 +120,7 @@ Nuestros servicios: recitales, eventos corporativos, eventos de fundaciones, lan
 
 <div class="cards3 col-xl-12" id="card_white">
 
-	<img src="img/foto1.jpg" height="400px" id="img_recursos">
+	<img src="img/foto1.jpg" height="400px" id="img_recursos"> <br>
 	<div class="texto_section2">
 	<h2>Recursos Humanos </h2> <p>
 	Coordinadores para soporte previo y durante el evento.
@@ -216,7 +216,7 @@ La plataforma es un espacio personalizado, donde el cliente podrá crear un luga
 <div class="section3 col-xl-12 col-sm-12 col-xs-12" >	
 
 	<h3> ¡Contanos tu idea!</h3>
-	<form>
+	<form action="contacto.php" method="post">
 		
 		<div>
 		<label for="name">Nombre y Apellido</label>
@@ -224,8 +224,8 @@ La plataforma es un espacio personalizado, donde el cliente podrá crear un luga
 		</div>
 
 		<div>
-			<label for="email">Email</label>
-		<input type="text" name="email" placeholder="Email"> 
+			<label for="mail">Email</label>
+		<input type="text" name="mail" placeholder="Email"> 
 		</div>
 
 		<div>
@@ -245,12 +245,11 @@ La plataforma es un espacio personalizado, donde el cliente podrá crear un luga
 
 		
 		<p>Para más información contáctese con nosotros<br> ®Hop Eventos - España <br>
-		Powered by ® </p>
+		</p>
 
 
 		<div class="redes"> 
 			Contacto: +34 692 719 255 <br>
-			Web www.hopeventos.com <br>
 			Instagram: @hop.eventos 
 		</div>
 
@@ -272,4 +271,5 @@ La plataforma es un espacio personalizado, donde el cliente podrá crear un luga
 	$('.loader_bg').fadeToggle();
 	}, 1500)
 </script>
+
 </html>
