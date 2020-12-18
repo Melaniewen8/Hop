@@ -397,8 +397,7 @@ form label {
 
 	#img_design{
 
-		height: 300px;
-		margin: auto;
+		display: none;
 
 	}
 	.section2 {
@@ -473,6 +472,7 @@ header nav .logo {
 
 .cards1 {
 	font-size: 0.5rem;
+	margin-top: 0;
 }
 
 
