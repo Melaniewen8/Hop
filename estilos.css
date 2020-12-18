@@ -448,6 +448,13 @@ form label {
 @media screen and (max-width: 600px) {
 
 
+header {
+
+	background-color: black;
+	background-image: none;
+}
+
+
 header nav {
 
 	padding-left: 0.1rem;
