@@ -1,24 +1,15 @@
 <?php
 $name = $_POST['name'];
+echo "name";
 $mail = $_POST['mail'];
-$consulta = $_POST['consulta'];
-
-
-$header = 'From: ' . $mail . " \r\n";
-$header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
-$header .= "Mime-Version: 1.0 \r\n";
-$header .= "Content-Type: text/plain";
-
-$message = "Este mensaje fue enviado por: " . $name . " \r\n";
-$message .= "Su e-mail es: " . $mail . " \r\n";
-$message .= "Consulta: " . $consulta . " \r\n";
-$message .= "Mensaje: " . $_POST['message'] . " \r\n";
-$message .= "Enviado el: " . date('d/m/Y', time());
+echo "mail";
+$consulta = $_POST['asunto'];
+echo "asunto";
 
 $para = 'hola.hop@hotmail.com';
-$asunto = 'Mensaje de PRECOMPC';
+$asunto = 'Hop';
 
-mail($para, $asunto, utf8_decode($message), $header);
+mail($para, $asunto, $header);
 
 header("Location:index.html");
 ?>

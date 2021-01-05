@@ -24,8 +24,7 @@
 
 
 body {
-
-	font-family: 'Nunito', sans-serif;
+font-family: 'Montserrat', sans-serif;
 	}
 
 a{
@@ -40,18 +39,22 @@ a{
 	font-weight: bolder;
 	text-align: left;
 	margin-left: 4rem;
+	color: white;
+	text-shadow: 2px 1px 2px rgba(150, 150, 150, 0.53);
 }
 
 .texto_encabezado p{
 
 	text-align: left;
-	margin-left: 4rem; }
+	margin-left: 4rem;
+	color: white;
+	text-shadow: 2px 1px 2px rgba(150, 150, 150, 0.53);}
 
 
 header {
 
 	height: 87vh;
-	background-image: url(img/corporativos2.jpg);
+	background-image: url(img/principal.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -96,10 +99,15 @@ header nav a:hover{
 
 .wave2{
 	display: block;
-	background-color: #ffea00;
+	background-color: #fdc302;
 }
 
-.section1 {
+header nav a #logo:hover{
+
+	background-color: none;
+}
+
+.section1 {	
 
 	background-color: white;
 	margin-top: 8rem;
@@ -108,7 +116,7 @@ header nav a:hover{
 .texto_encabezado {
 
 	padding-top: 8rem;
-	text-align: center;
+	text-align: left;
 	color: white;
 	top: 1rem;
 }
@@ -118,7 +126,7 @@ header nav a:hover{
 	height: 2.5rem;
 	width: 11rem;
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: #fdc302;
 	border-radius: 15px 15px 15px 15px;
 	color: white;
 	padding-top: 0.5rem;
@@ -129,7 +137,6 @@ header nav a:hover{
 .boton_reel:hover{
 	color: black;
 	text-decoration: none;
-	background-color: #ffea00
 }
 .boton_reel a:hover{
 	text-decoration: none;
@@ -138,7 +145,7 @@ header nav a:hover{
 .section1 {
 	padding-top: 2rem;
 	background-color: white;
-	height: 104vh;
+	height: 135vh;
 	margin: auto;
 	text-align: center;
 }
@@ -149,6 +156,7 @@ header nav a:hover{
 
 .card1 {
 	
+	text-align: left;
 	margin:auto;
 	margin-top: 3rem;
 	padding: 3rem;
@@ -166,12 +174,13 @@ header nav a:hover{
 
 #card2 {
 	padding: 4rem;
+	height: 50%;
 }
 
 .section2 {
 	padding-top: 1rem;
-	height: 200vh;
-	background-color: #ffea00;
+	height: 250vh;
+	background-color: #fdc302;
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -179,11 +188,8 @@ header nav a:hover{
 	width: 100vw;
 }
 
-#img_design {
 
-	height: 500px;
 
-}
 .cards2 {
 
 	margin:auto;
@@ -193,28 +199,50 @@ header nav a:hover{
 	box-shadow: 10px 10px 58px -40px rgba(38,38,38,1);
 	background-color: rgba(255,255,255,0.2);
 	height: 18rem;
-	text-align: center;
+	text-align: left;
+	
 }
 
-.cards2:hover {
-
-	box-shadow: 20px 20px 70px -60px #117A65;
-	transform: scale(1.1);
-}
 
 
 .cards3 {
+
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	text-align: left;
+
 }
 
+.card4 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: left;
+	font-size: 0.8rem;
+	padding: 1rem 5rem 2rem 5rem;
+	box-shadow: 10px 10px 58px -40px rgba(38,38,38,1);
+
+}
+
+.card5 {	
+
+	font-size: 0.8rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: left;
+	padding: 1rem 5rem 2rem 5rem;
+	margin-top: 1.5rem;
+	box-shadow: 10px 10px 58px -40px rgba(38,38,38,1);
+
+}
 
 
 .section3 {
 	color: white;
 	height: 75vh;
-	background-color: #ffea00;
+	background-color: #fdc302;
 	text-align: center;
 	width: 100%;
 }
@@ -227,14 +255,14 @@ font-weight: bolder;
 
 
 img:hover{
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
 footer {
 	height: 20vh;
 	padding: 2rem;
-	color: white;
-	background-color: black;
+	/*color: white;
+	background-color: black;*/
 	display: flex;
 	justify-content: space-between;
 	font-size: 1rem;
@@ -273,14 +301,13 @@ form label {
 
 	width: 70%;
 	outline: none;
-	background-color: white;
+	background-color: #FF9B00;
 	border: none;
 	padding: 15px;
 	margin-bottom: 15px;
 	border-radius: 5px;
-	color: grey;
+	color: white;
 	margin-top: 0.5rem;
-
 	}	
 
 
@@ -288,13 +315,11 @@ form label {
 
 	border-radius: 50%;
 	background-color: #00bb2d;
-	padding: 1rem;
+	padding: 0.5rem;
 	position: fixed;
-	bottom: 2rem;
+	bottom: 6.5rem;
 	right: 2rem;
 	z-index: 999997;
-
-
 }
 
 
@@ -306,9 +331,10 @@ form label {
 }
 
 #card_white {
+	padding: 5rem;
 	background-color: white;
-	margin-top: 3rem;
-	margin-bottom: 3rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
 
 }
 
@@ -320,8 +346,8 @@ form label {
  
 .section4 {
 
-	height: 110vh;
-	text-align: center;
+	height: 100%;
+	text-align: left;
 	width: 100vw;
 	display: flex;
 	justify-content: center;
@@ -335,7 +361,7 @@ form label {
 	border-radius: 15px 15px 15px 15px;
 	box-shadow: 10px 10px 40px -40px rgba(38,38,38,1);
 	font-size: 0.8rem;
-	text-align: center;
+	text-align: left;
 	height: 20rem;
  }
 .section4 div img{
@@ -370,9 +396,11 @@ form label {
 
 @media screen and (max-width: 900px) {
 
+
 	.wave {
-	display: none;
-	}
+	position: relative;
+	bottom: 5rem; }
+	 
 
 	.section1 {
 	font-size: 0.8rem;
@@ -383,23 +411,41 @@ form label {
 		font-size: 0.8rem;
 	}
 	
-	.texto_section2{
 
+	.wave {
+
+		position: relative;
+		bottom: 1rem;
 	}
 
-
-	#img_recursos{
+	#imgrecursos{
 
 		height: 150px;
 		margin:auto;
 
 	}
 
-	#img_design{
+	.card5 {
+
+		box-shadow: none;
+	}
+
+	#imgdesign{
 
 		display: none;
 
 	}
+
+	#imgtecnica{
+
+		display: none;
+	}
+
+	
+	#imgplataforma {	
+		display: none;
+	}
+
 	.section2 {
 		height: 100%;
 		width: 100vw;
@@ -448,12 +494,6 @@ form label {
 @media screen and (max-width: 600px) {
 
 
-header {
-
-	background-color: black;
-	background-image: none;
-}
-
 
 header nav {
 
@@ -470,6 +510,11 @@ header nav .logo {
 	
 }
 
+header nav a #logo:hover{
+
+	background-color: none;
+}
+
 .cards1 {
 	font-size: 0.4rem;
 	margin-top: 0;
@@ -479,7 +524,7 @@ header nav .logo {
 .section2 {
 
 	width: 100vw;
-	background-color: #ffea00;
+	background-color: #fdc302;
 }
 
 
