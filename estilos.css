@@ -88,7 +88,7 @@ header nav a {
 
 header nav a:hover{
 	color: black;
-	background-color: white;
+	background-color: #fdc302;
 	text-decoration: none;
 }
 
@@ -394,7 +394,7 @@ form label {
 
 /*------------ RESPONSIVE ------------------ */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
 
 
 	.wave {
@@ -556,6 +556,23 @@ footer p{
 	top: 20rem;
 
 }
+
+
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 800px) {
+
+
+
+.wave {
+
+
+	margin-top: 7rem;
+	position: sticky;
+	top: 20rem;
+}
+
 
 
 }
