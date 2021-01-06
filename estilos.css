@@ -319,7 +319,7 @@ form label {
 	position: fixed;
 	bottom: 6.5rem;
 	right: 2rem;
-	z-index: 999997;
+	z-index: 99998;
 }
 
 
@@ -489,6 +489,16 @@ form label {
 	height: 100%;
 
 	}
+
+
+	.wave {
+
+		margin-top: 7rem;
+		position: sticky;
+		top: 20rem;
+
+}
+
 }
 
 @media screen and (max-width: 600px) {
@@ -503,6 +513,10 @@ header nav {
 
 }
 
+nav div a .logo:hover{
+
+	background-color: none;	}
+
 
 header nav .logo {
 
@@ -510,10 +524,6 @@ header nav .logo {
 	
 }
 
-header nav a #logo:hover{
-
-	background-color: none;
-}
 
 .cards1 {
 	font-size: 0.4rem;
@@ -532,5 +542,20 @@ form label {
 
 	font-size: 1.2rem;
 }
+
+
+footer p{
+
+	font-size: 0.5rem;
+}
+
+.wave {
+
+	margin-top: 7rem;
+	position: sticky;
+	top: 20rem;
+
+}
+
 
 }
