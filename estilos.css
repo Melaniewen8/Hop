@@ -211,6 +211,7 @@ header nav a #logo:hover{
 	justify-content: space-around;
 	align-items: center;
 	text-align: left;
+	width: 100vw;
 
 }
 
@@ -222,11 +223,13 @@ header nav a #logo:hover{
 	font-size: 0.8rem;
 	padding: 1rem 5rem 2rem 5rem;
 	box-shadow: 10px 10px 58px -40px rgba(38,38,38,1);
+	width: 100vw;
 
 }
 
 .card5 {	
 
+	width: 100vw;
 	font-size: 0.8rem;
 	display: flex;
 	justify-content: space-around;
@@ -530,6 +533,11 @@ form label {
 
 @media screen and (max-width: 600px) {
 
+.section2 {
+
+	width: 100vw;
+	background-color: #fdc302;
+}
 
 
 header nav {
