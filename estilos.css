@@ -451,6 +451,9 @@ form label {
 		display: none;
 }
 	#card_white {
+
+	display: flex;
+	justify-content: center;
 	padding: 1rem;
 	background-color: white;
 	margin-top: 0.5rem;
@@ -458,7 +461,16 @@ form label {
 	text-align: left;
 }
 
-	}
+#card_centrada {
+
+	display: flex;
+	justify-content: center;
+	text-align: left;
+}
+
+
+
+	
 	.section2 {
 		height: 100%;
 		width: 100vw;
@@ -492,9 +504,9 @@ form label {
 
 	.header nav {
 
-		padding: 0.5rem;
-		margin: 0.5rem;
-		font-size: 0.6rem;
+		padding: 0.4rem;
+		margin: 0.4rem;
+		font-size: 0.5rem;
 	}
 
 
