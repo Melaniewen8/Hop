@@ -446,6 +446,19 @@ form label {
 		display: none;
 	}
 
+	#imgrecursos {
+
+		display: none;
+}
+	#card_white {
+	padding: 1rem;
+	background-color: white;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	text-align: left;
+}
+
+	}
 	.section2 {
 		height: 100%;
 		width: 100vw;
@@ -530,6 +543,13 @@ header nav .logo {
 	margin-top: 0;
 }
 
+.card1 {
+
+	height: 100%;
+	padding-bottom: 2rem;
+}
+
+
 
 .section2 {
 
@@ -573,6 +593,23 @@ footer p{
 	top: 20rem;
 }
 
+#imgdesign {
 
+	height: 200px;
+}
 
+#imgrecursos {
+
+	height: 200px;
+}
+
+#imgtecnica {
+
+	height: 200px;
+}
+
+#imgplataforma {
+
+	height: 200px;
+}
 }
